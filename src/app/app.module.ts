@@ -1,16 +1,35 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgModule, Injector } from '@angular/core';
+import { createCustomElement } from '@angular/elements';
 
-import { AppComponent } from './app.component';
+import { KeepersShellComponent } from './keepers-shell/keepers-shell.component';
+import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    AppComponent
+    KeepersShellComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    CommonModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  entryComponents: [
+    KeepersShellComponent
+  ]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(
+    private injector: Injector
+  ) { }
+
+  ngDoBootstrap() {
+    const customElement = createCustomElement(KeepersShellComponent, { injector: this.injector});
+    customElements.define('sleepers-keepers', customElement);
+  }
+}

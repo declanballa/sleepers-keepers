@@ -1,0 +1,202 @@
+<div class="keepers-shell">
+    <!-- <div class="keepers-shell__settings-modal">
+
+    </div> -->
+    <div class="keepers-shell__user-selection">
+        <img class="keepers-shell__user-selection-logo"
+             src="../../assets/keepers-logo.svg"
+             alt="Sleepers Keepers">
+        <h2>Sleepers Keepers</h2>
+        <div class="keepers-shell__user-selection-selected-username"
+             [ngClass]="{'show': userSelected && !isLoading, 'error': userNameError}">
+            <div *ngIf="!userNameError"
+                 class="keepers-shell__user-selection-selected-username-initial">
+                {{ getUserNameInitial()}}
+            </div>
+            <span>{{ userNameSearchValue }}</span>
+            <img (click)="clearSearch()"
+                 src="../../assets/close-icon.svg"
+                 alt="close-icon">
+        </div>
+        <div class="keepers-shell__user-selection-league"
+             [ngClass]="{'enable': userSelected && !isLoading, 'expanded': selectedLeague}">
+            <span>{{ selectedLeague && selectedLeague.name.substr(0, 1) }}</span>
+            <span>{{ selectedLeague && selectedLeague.name }}</span>
+            <img (click)="clearLeagueSelection()"
+                    src="../../assets/close-icon-light.svg"
+                    alt="close-icon">
+        </div>
+        <!-- <div class="keepers-shell__user-selection-settings"
+             *ngIf="selectedLeague && !isLoading && !userNameError">
+            <img (click)="openSettings()"
+                    src="../../assets/settings-icon.svg"
+                    alt="settings-icon">
+        </div> -->
+        <div class="keepers-shell__user-selection-username-error"
+             [ngClass]="{'show': userSelected && userNameError && !isLoading}">
+            <div class="keepers-shell__user-selection-username-error-icon">
+                <img src="../../assets/username-error-icon.svg" alt="username-error-icon">
+            </div>
+            <span>We couldn't find that user. Try again?</span>
+        </div>
+        <form (ngSubmit)="searchForUser()"
+              class="keepers-shell__user-selection-form"
+              [ngClass]="{'hide': userSelected && !isLoading}">
+            <img class="keepers-shell__user-selection-search-icon"
+                 src="../../assets/search-icon.svg" alt="search icon">
+            <input type="text"
+                   autocomplete=”off”
+                   [ngModelOptions]="{standalone: true}"
+                   [(ngModel)]="userNameSearchValue"
+                   placeholder="Enter your sleeper username..."
+                   [ngClass]="{'open': userNameSearchValue}">
+            <img class="keepers-shell__user-selection-clear-icon"
+                 src="../../assets/clear-search-icon.svg"
+                 (click)="clearSearch()"
+                 [ngClass]="{'open': userNameSearchValue}"
+                 alt="user-selection-clear-icon">
+            <div class="keepers-shell__user-selection-search-button-wrapper">
+                <button [ngClass]="{'open': userNameSearchValue}"
+                        type="submit">
+                    <span>Search</span>
+                    <img src="../../assets/search-arrow.svg"
+                         alt="search arrow"
+                         [ngClass]="{'show': !isLoading}">
+                    <div class="loader"
+                         [ngClass]="{'show': isLoading}"></div>
+                </button>
+            </div>
+        </form>
+        <div class="keepers-shell__user-league-list"
+            [ngClass]="{'show': userSelected && !userNameError && usersLeagues && !isLoading && !selectedLeague}">
+            <h3>Select a League:</h3>
+            <div *ngIf="usersLeagues && !usersLeagues.length">This user does not have any leagues</div>
+            <ul *ngIf="usersLeagues && usersLeagues.length">    
+                <div *ngFor="let league of usersLeagues">
+                    <li (click)="selectLeague(league)">
+                        <span>{{ league.name.substr(0, 1) }}</span>
+                        <span>{{ league.name }}</span>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="keepers-shell__instructions"
+         [ngClass]="{'show': !selectedLeague}">
+        <img src="../../assets/finger-pointing-up.svg"
+             alt="pointing-up-finger">
+        <div class="keepers-shell__instructions-content">
+            <h3>Find your keeper values</h3>
+            <p>Keeper value is the difference in what you will pay in draft rounds vs what someone who doesn't have that player would pay.</p>
+        </div>
+    </div>
+    <div class="keepers-shell__instructions"
+         [ngClass]="{'show': selectedLeague}">
+        <div class="keepers-shell__instructions-content"
+             [ngClass]="{'float-left': selectedLeague}">
+            <h3>How to read it</h3>
+            <p>The higher the value, the more of a “steal” you are getting by keeping a particular player.</p>
+        </div>
+        <img src="../../assets/finger-pointing-down.svg"
+             alt="pointing-down-finger"
+             [ngClass]="{'float-right': selectedLeague}">
+    </div>
+    <div class="keepers-shell__player-listing">
+        <ul class="keepers-shell__player-listing-header">
+            <li>Player</li>
+            <li>2021</li>
+            <li>ADP</li>
+            <li>Value</li>
+        </ul>
+        <ul class="keepers-shell__player-listing-rows-sample"
+            [ngClass]="{'show': !selectedLeague}">
+            <li>
+                <span></span>
+                <span></span>
+            </li>
+            <li>
+                <span></span>
+            </li>
+            <li>
+                <span></span>
+            </li>
+            <li>
+                <span></span>
+            </li>
+        </ul>
+        <ul class="keepers-shell__player-listing-rows"
+            [ngClass]="{'show': leagueRosterPlayers}">
+            <li *ngFor="let player of leagueRosterPlayers"
+                [ngClass]="{'hide': player.adp === 0, 'good': player.value >= 2, 'bad': player.value < 0}">
+                <div>
+                    <span>
+                        {{ player.first_name }} {{ player.last_name }}
+                        <div class="keepers-shell__player-listing-rows-tooltip"
+                             [ngClass]="{'show': showingDraftedTooltip  && showingTooltipFor === player && player.originallyDrafted}">
+                            You drafted this player
+                        </div>
+                    </span>
+                    <img *ngIf="player.originallyDrafted"
+                         src="../../assets/drafted-icon.svg"
+                         (mouseenter)="toggleDraftedTooltip(player, $event)"
+                         (mouseleave)="toggleDraftedTooltip(player, $event)"
+                         (click)="toggleDraftedTooltip(player, $event)">
+                    <span><span [ngClass]="getPlayerClassName(player.position)"></span> {{ player.position }} - {{ player.team }}</span>
+                </div>
+                <div [ngClass]="{'is-free-agent': player.pick_no === 999}"
+                     (mouseenter)="toggleFaTooltip(player, $event)"
+                     (mouseleave)="toggleFaTooltip(player, $event)"
+                     (click)="toggleFaTooltip(player, $event)">
+                    {{ getFormattedPickNo(player.pick_no) }}
+                    <div class="keepers-shell__player-listing-rows-tooltip"
+                        [ngClass]="{'show': showingFaTooltip  && showingTooltipFor === player}">
+                        This player wasn't drafted by anyone in your league. Your league counts free agents as <span>10th round</span> picks.
+                    </div>
+                </div>
+                <div>{{ getFormattedPickNo(player.adp) }}</div>
+                <div [style.color]="getValueColor(player.value)">
+                    {{ player.value.toFixed(1) }}
+                    <img *ngIf="player.value >= 2"
+                         src="../../assets/green-arrow.svg"
+                         alt="green-arrow">
+                    <img *ngIf="player.value < 0"
+                         src="../../assets/red-arrow.svg"
+                         alt="red-arrow">
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="keepers-shell__notes"
+         [ngClass]="{'show': leagueRosterPlayers && leagueRosterPlayers.length}">
+         <div>
+            <h3>Value:</h3>
+            <p>(2021 league draft position - Keeper Round Penalty) - Current ADP</p>
+        </div>
+        <div>
+            <h3>FA (Free Agent):</h3>
+            <p>A player that wasn’t drafted by anyone in your league. Your league counts free agents as 10th round picks.</p>
+        </div>
+        <div>
+            <h3>Your draft pick</h3>
+            <img src="../../assets/drafted-icon.svg">
+            <p>Players with this icon were one of your original draft picks</p>
+        </div>
+    </div>
+    <div class="keepers-shell__app-footer">
+        <div>Crafted with 
+            <img src="../../assets/heart.svg">
+             in San Diego, CA
+        </div>
+        <div>
+            <span>
+                <a href="https://www.linkedin.com/in/declanballa/" target="_black">Declan Balla</a>:
+                Ideas & Code
+            </span>
+            <span>&nbsp;&nbsp; | &nbsp;&nbsp; </span>
+            <span>
+                <a href="https://www.linkedin.com/in/stephenwitmer/" target="_blank">Steve Witmer</a>:
+                Design & UX
+            </span>
+        </div>
+    </div>
+</div>

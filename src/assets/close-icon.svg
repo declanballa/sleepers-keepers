@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Untitled 3</title>
+    <defs>
+        <path d="M11.0084,12.6894 L6.8062,8.4872 L2.60392,12.6894 C2.13975,13.1536 1.38719,13.1536 0.92302,12.6894 C0.45886,12.2252 0.45886,11.4727 0.92302,11.0085 L5.1253,6.8063 L0.92302,2.60403 C0.45886,2.13987 0.45886,1.3873 0.92302,0.92314 C1.38719,0.45897 2.13975,0.45897 2.60392,0.92314 L6.8062,5.1254 L11.0084,0.92314 C11.4726,0.45897 12.2251,0.45897 12.6893,0.92314 C13.1534,1.3873 13.1534,2.13986 12.6893,2.60403 L8.487,6.8063 L12.6893,11.0085 C13.1534,11.4727 13.1534,12.2252 12.6893,12.6894 C12.2251,13.1536 11.4726,13.1536 11.0084,12.6894 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Path"></g>
+            <rect id="Rectangle" fill="#000000" fill-rule="nonzero" mask="url(#mask-2)" x="-6" y="-6" width="26" height="26"></rect>
+        </g>
+    </g>
+</svg>

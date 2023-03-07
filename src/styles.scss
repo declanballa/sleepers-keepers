@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+$roboto: 'Roboto', Arial, Helvetica, sans-serif;
+
+body {
+    background-color: #0A0E14;
+    font-family: $roboto;
+    user-select: none;
+    margin: 0;
+}
