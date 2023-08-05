@@ -21,7 +21,7 @@ export class NflDataService {
   getAllSleeperPlayers() {
     this.playerList = [] as SleeperPlayer[];
 
-    const url = './assets/nfl-player-list-080322.json';
+    const url = './assets/nfl-player-list-080523.json';
 
     return this.http.get(url)
       .pipe(
@@ -65,7 +65,7 @@ export class NflDataService {
   getCurrentPlayerAdp() {
     this.playerAdpList = [] as PlayerAdp[];
 
-    const url = './assets/nfl-player-adp-080322.json';
+    const url = './assets/nfl-player-adp-080523.json';
 
     return this.http.get(url)
       .pipe(
@@ -118,7 +118,7 @@ export class NflDataService {
   }
 
   getSleeperLeagues(userId: string): Observable<SleeperLeague[]> {
-    const url = `https://api.sleeper.app/v1/user/${userId}/leagues/nfl/2021`;
+    const url = `https://api.sleeper.app/v1/user/${userId}/leagues/nfl/2022`;
 
     return this.http.get(url)
       .pipe(

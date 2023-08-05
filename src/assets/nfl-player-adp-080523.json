@@ -1,0 +1,1310 @@
+[
+  {
+    "Player": "Justin Jefferson",
+    "AVG": 1
+  },
+  {
+    "Player": "Christian McCaffrey",
+    "AVG": 2
+  },
+  {
+    "Player": "Ja'Marr Chase",
+    "AVG": 3
+  },
+  {
+    "Player": "Austin Ekeler",
+    "AVG": 4
+  },
+  {
+    "Player": "Cooper Kupp",
+    "AVG": 5
+  },
+  {
+    "Player": "Travis Kelce",
+    "AVG": 6
+  },
+  {
+    "Player": "Tyreek Hill",
+    "AVG": 7
+  },
+  {
+    "Player": "Saquon Barkley",
+    "AVG": 8.5
+  },
+  {
+    "Player": "Bijan Robinson",
+    "AVG": 8.5
+  },
+  {
+    "Player": "Stefon Diggs",
+    "AVG": 11
+  },
+  {
+    "Player": "Nick Chubb",
+    "AVG": 12
+  },
+  {
+    "Player": "CeeDee Lamb",
+    "AVG": 12
+  },
+  {
+    "Player": "A.J. Brown",
+    "AVG": 12.5
+  },
+  {
+    "Player": "Jonathan Taylor",
+    "AVG": 13
+  },
+  {
+    "Player": "Patrick Mahomes II",
+    "AVG": 16.5
+  },
+  {
+    "Player": "Davante Adams",
+    "AVG": 16.5
+  },
+  {
+    "Player": "Tony Pollard",
+    "AVG": 18.5
+  },
+  {
+    "Player": "Josh Allen",
+    "AVG": 19
+  },
+  {
+    "Player": "Derrick Henry",
+    "AVG": 19
+  },
+  {
+    "Player": "Amon-Ra St. Brown",
+    "AVG": 19
+  },
+  {
+    "Player": "Garrett Wilson",
+    "AVG": 19
+  },
+  {
+    "Player": "Josh Jacobs",
+    "AVG": 22
+  },
+  {
+    "Player": "Jaylen Waddle",
+    "AVG": 23
+  },
+  {
+    "Player": "Jalen Hurts",
+    "AVG": 23
+  },
+  {
+    "Player": "Rhamondre Stevenson",
+    "AVG": 24.5
+  },
+  {
+    "Player": "Najee Harris",
+    "AVG": 27.5
+  },
+  {
+    "Player": "Mark Andrews",
+    "AVG": 28
+  },
+  {
+    "Player": "Chris Olave",
+    "AVG": 28
+  },
+  {
+    "Player": "Breece Hall",
+    "AVG": 29
+  },
+  {
+    "Player": "DeVonta Smith",
+    "AVG": 29
+  },
+  {
+    "Player": "Travis Etienne Jr.",
+    "AVG": 31
+  },
+  {
+    "Player": "Tee Higgins",
+    "AVG": 32
+  },
+  {
+    "Player": "Joe Burrow",
+    "AVG": 32.5
+  },
+  {
+    "Player": "Jahmyr Gibbs",
+    "AVG": 34
+  },
+  {
+    "Player": "DK Metcalf",
+    "AVG": 35.5
+  },
+  {
+    "Player": "Lamar Jackson",
+    "AVG": 35.5
+  },
+  {
+    "Player": "Kenneth Walker III",
+    "AVG": 36
+  },
+  {
+    "Player": "Deebo Samuel",
+    "AVG": 40
+  },
+  {
+    "Player": "Joe Mixon",
+    "AVG": 41
+  },
+  {
+    "Player": "Amari Cooper",
+    "AVG": 41.5
+  },
+  {
+    "Player": "Aaron Jones",
+    "AVG": 42.5
+  },
+  {
+    "Player": "Justin Herbert",
+    "AVG": 43.5
+  },
+  {
+    "Player": "Calvin Ridley",
+    "AVG": 43.5
+  },
+  {
+    "Player": "Keenan Allen",
+    "AVG": 44.5
+  },
+  {
+    "Player": "Dameon Pierce",
+    "AVG": 45
+  },
+  {
+    "Player": "T.J. Hockenson",
+    "AVG": 45.5
+  },
+  {
+    "Player": "Justin Fields",
+    "AVG": 46.5
+  },
+  {
+    "Player": "Terry McLaurin",
+    "AVG": 48
+  },
+  {
+    "Player": "Miles Sanders",
+    "AVG": 49
+  },
+  {
+    "Player": "DeAndre Hopkins",
+    "AVG": 49.5
+  },
+  {
+    "Player": "J.K. Dobbins",
+    "AVG": 52
+  },
+  {
+    "Player": "George Kittle",
+    "AVG": 52.5
+  },
+  {
+    "Player": "Alexander Mattison",
+    "AVG": 56.5
+  },
+  {
+    "Player": "Trevor Lawrence",
+    "AVG": 56.5
+  },
+  {
+    "Player": "Jerry Jeudy",
+    "AVG": 57
+  },
+  {
+    "Player": "DJ Moore",
+    "AVG": 58
+  },
+  {
+    "Player": "Alvin Kamara",
+    "AVG": 58.5
+  },
+  {
+    "Player": "Christian Watson",
+    "AVG": 58.5
+  },
+  {
+    "Player": "Cam Akers",
+    "AVG": 60
+  },
+  {
+    "Player": "D'Andre Swift",
+    "AVG": 60.5
+  },
+  {
+    "Player": "Drake London",
+    "AVG": 61.5
+  },
+  {
+    "Player": "Dalvin Cook",
+    "AVG": 62
+  },
+  {
+    "Player": "Kyle Pitts",
+    "AVG": 62.5
+  },
+  {
+    "Player": "James Conner",
+    "AVG": 63.5
+  },
+  {
+    "Player": "Rachaad White",
+    "AVG": 64.5
+  },
+  {
+    "Player": "Javonte Williams",
+    "AVG": 64.5
+  },
+  {
+    "Player": "Chris Godwin",
+    "AVG": 64.5
+  },
+  {
+    "Player": "Mike Williams",
+    "AVG": 64.5
+  },
+  {
+    "Player": "Christian Kirk",
+    "AVG": 68.5
+  },
+  {
+    "Player": "Darren Waller",
+    "AVG": 68.5
+  },
+  {
+    "Player": "Brandon Aiyuk",
+    "AVG": 69.5
+  },
+  {
+    "Player": "Dallas Goedert",
+    "AVG": 70
+  },
+  {
+    "Player": "Michael Pittman Jr.",
+    "AVG": 72
+  },
+  {
+    "Player": "Isiah Pacheco",
+    "AVG": 73.5
+  },
+  {
+    "Player": "Tyler Lockett",
+    "AVG": 74.5
+  },
+  {
+    "Player": "Marquise Brown",
+    "AVG": 77
+  },
+  {
+    "Player": "David Montgomery",
+    "AVG": 78
+  },
+  {
+    "Player": "James Cook",
+    "AVG": 79
+  },
+  {
+    "Player": "Mike Evans",
+    "AVG": 79
+  },
+  {
+    "Player": "Diontae Johnson",
+    "AVG": 79.5
+  },
+  {
+    "Player": "Deshaun Watson",
+    "AVG": 81
+  },
+  {
+    "Player": "Dak Prescott",
+    "AVG": 82.5
+  },
+  {
+    "Player": "George Pickens",
+    "AVG": 82.5
+  },
+  {
+    "Player": "AJ Dillon",
+    "AVG": 84.5
+  },
+  {
+    "Player": "Jaxon Smith-Njigba",
+    "AVG": 85.5
+  },
+  {
+    "Player": "Jordan Addison",
+    "AVG": 87.5
+  },
+  {
+    "Player": "Antonio Gibson",
+    "AVG": 87.5
+  },
+  {
+    "Player": "Evan Engram",
+    "AVG": 88
+  },
+  {
+    "Player": "Jahan Dotson",
+    "AVG": 90
+  },
+  {
+    "Player": "Treylon Burks",
+    "AVG": 90.5
+  },
+  {
+    "Player": "Tua Tagovailoa",
+    "AVG": 92
+  },
+  {
+    "Player": "Pat Freiermuth",
+    "AVG": 92.5
+  },
+  {
+    "Player": "Brian Robinson Jr.",
+    "AVG": 94
+  },
+  {
+    "Player": "Brandin Cooks",
+    "AVG": 96
+  },
+  {
+    "Player": "Jamaal Williams",
+    "AVG": 97
+  },
+  {
+    "Player": "Rashaad Penny",
+    "AVG": 97.5
+  },
+  {
+    "Player": "De'Von Achane",
+    "AVG": 99
+  },
+  {
+    "Player": "Kadarius Toney",
+    "AVG": 99.5
+  },
+  {
+    "Player": "David Njoku",
+    "AVG": 99.5
+  },
+  {
+    "Player": "Khalil Herbert",
+    "AVG": 100.5
+  },
+  {
+    "Player": "Gabe Davis",
+    "AVG": 100.5
+  },
+  {
+    "Player": "Courtland Sutton",
+    "AVG": 102.5
+  },
+  {
+    "Player": "Michael Thomas",
+    "AVG": 102.5
+  },
+  {
+    "Player": "Zach Charbonnet",
+    "AVG": 103.5
+  },
+  {
+    "Player": "Samaje Perine",
+    "AVG": 104
+  },
+  {
+    "Player": "Kirk Cousins",
+    "AVG": 105
+  },
+  {
+    "Player": "Quentin Johnston",
+    "AVG": 107
+  },
+  {
+    "Player": "Daniel Jones",
+    "AVG": 108
+  },
+  {
+    "Player": "JuJu Smith-Schuster",
+    "AVG": 108.5
+  },
+  {
+    "Player": "Anthony Richardson",
+    "AVG": 109.5
+  },
+  {
+    "Player": "Aaron Rodgers",
+    "AVG": 112
+  },
+  {
+    "Player": "Damien Harris",
+    "AVG": 112.5
+  },
+  {
+    "Player": "Elijah Moore",
+    "AVG": 113
+  },
+  {
+    "Player": "Geno Smith",
+    "AVG": 113.5
+  },
+  {
+    "Player": "Jared Goff",
+    "AVG": 115
+  },
+  {
+    "Player": "Zay Flowers",
+    "AVG": 115
+  },
+  {
+    "Player": "Odell Beckham Jr.",
+    "AVG": 117.5
+  },
+  {
+    "Player": "Jameson Williams",
+    "AVG": 118
+  },
+  {
+    "Player": "Dalton Schultz",
+    "AVG": 118
+  },
+  {
+    "Player": "Elijah Mitchell",
+    "AVG": 119
+  },
+  {
+    "Player": "Dalton Kincaid",
+    "AVG": 119
+  },
+  {
+    "Player": "Jerick McKinnon",
+    "AVG": 119.5
+  },
+  {
+    "Player": "Chigoziem Okonkwo",
+    "AVG": 120
+  },
+  {
+    "Player": "Allen Lazard",
+    "AVG": 124.5
+  },
+  {
+    "Player": "Russell Wilson",
+    "AVG": 127
+  },
+  {
+    "Player": "Adam Thielen",
+    "AVG": 128
+  },
+  {
+    "Player": "D'Onta Foreman",
+    "AVG": 128.5
+  },
+  {
+    "Player": "Rashod Bateman",
+    "AVG": 129.5
+  },
+  {
+    "Player": "Cole Kmet",
+    "AVG": 129.5
+  },
+  {
+    "Player": "Skyy Moore",
+    "AVG": 130.5
+  },
+  {
+    "Player": "Greg Dulcich",
+    "AVG": 130.5
+  },
+  {
+    "Player": "Tyler Allgeier",
+    "AVG": 131.5
+  },
+  {
+    "Player": "Tank Bigsby",
+    "AVG": 135.5
+  },
+  {
+    "Player": "Tyler Higbee",
+    "AVG": 137
+  },
+  {
+    "Player": "Kendre Miller",
+    "AVG": 138.5
+  },
+  {
+    "Player": "Devin Singletary",
+    "AVG": 138.5
+  },
+  {
+    "Player": "Rondale Moore",
+    "AVG": 139.5
+  },
+  {
+    "Player": "Jakobi Meyers",
+    "AVG": 140.5
+  },
+  {
+    "Player": "Jaylen Warren",
+    "AVG": 140.5
+  },
+  {
+    "Player": "Raheem Mostert",
+    "AVG": 140.5
+  },
+  {
+    "Player": "Ezekiel Elliott",
+    "AVG": 144
+  },
+  {
+    "Player": "Sam LaPorta",
+    "AVG": 144
+  },
+  {
+    "Player": "Tyler Boyd",
+    "AVG": 145
+  },
+  {
+    "Player": "Darnell Mooney",
+    "AVG": 145.5
+  },
+  {
+    "Player": "Derek Carr",
+    "AVG": 147.5
+  },
+  {
+    "Player": "Nico Collins",
+    "AVG": 147.5
+  },
+  {
+    "Player": "Romeo Doubs",
+    "AVG": 148.5
+  },
+  {
+    "Player": "Roschon Johnson",
+    "AVG": 151
+  },
+  {
+    "Player": "Matthew Stafford",
+    "AVG": 152
+  },
+  {
+    "Player": "Jordan Love",
+    "AVG": 154.5
+  },
+  {
+    "Player": "Bryce Young",
+    "AVG": 158
+  },
+  {
+    "Player": "Kyler Murray",
+    "AVG": 158
+  },
+  {
+    "Player": "Jeff Wilson Jr.",
+    "AVG": 158.5
+  },
+  {
+    "Player": "Donovan Peoples-Jones",
+    "AVG": 159
+  },
+  {
+    "Player": "Rashee Rice",
+    "AVG": 159
+  },
+  {
+    "Player": "Jonathan Mingo",
+    "AVG": 159.5
+  },
+  {
+    "Player": "Gerald Everett",
+    "AVG": 159.5
+  },
+  {
+    "Player": "Zay Jones",
+    "AVG": 161.5
+  },
+  {
+    "Player": "Michael Mayer",
+    "AVG": 161.5
+  },
+  {
+    "Player": "Chuba Hubbard",
+    "AVG": 162
+  },
+  {
+    "Player": "Juwan Johnson",
+    "AVG": 162
+  },
+  {
+    "Player": "Kareem Hunt",
+    "AVG": 164
+  },
+  {
+    "Player": "K.J. Osborn",
+    "AVG": 164.5
+  },
+  {
+    "Player": "Tyjae Spears",
+    "AVG": 165
+  },
+  {
+    "Player": "Jerome Ford",
+    "AVG": 165
+  },
+  {
+    "Player": "Irv Smith Jr.",
+    "AVG": 165.5
+  },
+  {
+    "Player": "Leonard Fournette",
+    "AVG": 167.5
+  },
+  {
+    "Player": "Kenny Pickett",
+    "AVG": 171
+  },
+  {
+    "Player": "Jalin Hyatt",
+    "AVG": 171
+  },
+  {
+    "Player": "Brock Purdy",
+    "AVG": 172.5
+  },
+  {
+    "Player": "Kenneth Gainwell",
+    "AVG": 173
+  },
+  {
+    "Player": "C.J. Stroud",
+    "AVG": 174
+  },
+  {
+    "Player": "Justin Tucker",
+    "AVG": 176
+  },
+  {
+    "Player": "Alec Pierce",
+    "AVG": 177
+  },
+  {
+    "Player": "Michael Gallup",
+    "AVG": 179
+  },
+  {
+    "Player": "Clyde Edwards-Helaire",
+    "AVG": 179.5
+  },
+  {
+    "Player": "Taysom Hill",
+    "AVG": 181.5
+  },
+  {
+    "Player": "Rashid Shaheed",
+    "AVG": 182
+  },
+  {
+    "Player": "Gus Edwards",
+    "AVG": 182
+  },
+  {
+    "Player": "Cordarrelle Patterson",
+    "AVG": 182.5
+  },
+  {
+    "Player": "Chase Brown",
+    "AVG": 185
+  },
+  {
+    "Player": "Parris Campbell",
+    "AVG": 186
+  },
+  {
+    "Player": "DJ Chark Jr.",
+    "AVG": 186.5
+  },
+  {
+    "Player": "Mike Gesicki",
+    "AVG": 187.5
+  },
+  {
+    "Player": "Sam Howell",
+    "AVG": 188.5
+  },
+  {
+    "Player": "Daniel Carlson",
+    "AVG": 190
+  },
+  {
+    "Player": "Van Jefferson",
+    "AVG": 192.5
+  },
+  {
+    "Player": "Jayden Reed",
+    "AVG": 194
+  },
+  {
+    "Player": "Ryan Tannehill",
+    "AVG": 195
+  },
+  {
+    "Player": "John Metchie III",
+    "AVG": 196
+  },
+  {
+    "Player": "Tyler Bass",
+    "AVG": 197.5
+  },
+  {
+    "Player": "Marquez Valdes-Scantling",
+    "AVG": 198.5
+  },
+  {
+    "Player": "Isaiah Hodgins",
+    "AVG": 200
+  },
+  {
+    "Player": "Jimmy Garoppolo",
+    "AVG": 201
+  },
+  {
+    "Player": "Evan McPherson",
+    "AVG": 201
+  },
+  {
+    "Player": "Marvin Mims Jr.",
+    "AVG": 202.5
+  },
+  {
+    "Player": "Hayden Hurst",
+    "AVG": 203
+  },
+  {
+    "Player": "Zach Ertz",
+    "AVG": 204
+  },
+  {
+    "Player": "Trey Lance",
+    "AVG": 204.5
+  },
+  {
+    "Player": "Wan'Dale Robinson",
+    "AVG": 205
+  },
+  {
+    "Player": "Dawson Knox",
+    "AVG": 205.5
+  },
+  {
+    "Player": "Zamir White",
+    "AVG": 205.5
+  },
+  {
+    "Player": "Harrison Butker",
+    "AVG": 205.5
+  },
+  {
+    "Player": "Jason Myers",
+    "AVG": 206
+  },
+  {
+    "Player": "San Francisco 49ers",
+    "AVG": 136
+  },
+  {
+    "Player": "Mac Jones",
+    "AVG": 209
+  },
+  {
+    "Player": "Desmond Ridder",
+    "AVG": 209.5
+  },
+  {
+    "Player": "Michael Carter",
+    "AVG": 211.5
+  },
+  {
+    "Player": "Curtis Samuel",
+    "AVG": 212
+  },
+  {
+    "Player": "Philadelphia Eagles",
+    "AVG": 149
+  },
+  {
+    "Player": "Isaiah Likely",
+    "AVG": 216
+  },
+  {
+    "Player": "Hunter Renfrow",
+    "AVG": 218.5
+  },
+  {
+    "Player": "Tim Patrick",
+    "AVG": 219
+  },
+  {
+    "Player": "Baker Mayfield",
+    "AVG": 219.5
+  },
+  {
+    "Player": "Dallas Cowboys",
+    "AVG": 160
+  },
+  {
+    "Player": "Hunter Henry",
+    "AVG": 220.5
+  },
+  {
+    "Player": "Brandon McManus",
+    "AVG": 221.5
+  },
+  {
+    "Player": "Luke Musgrave",
+    "AVG": 221.5
+  },
+  {
+    "Player": "Zach Evans",
+    "AVG": 222
+  },
+  {
+    "Player": "Joshua Kelley",
+    "AVG": 223
+  },
+  {
+    "Player": "Younghoe Koo",
+    "AVG": 225.5
+  },
+  {
+    "Player": "Ty Chandler",
+    "AVG": 225.5
+  },
+  {
+    "Player": "New England Patriots",
+    "AVG": 173
+  },
+  {
+    "Player": "Tank Dell",
+    "AVG": 229.5
+  },
+  {
+    "Player": "DeWayne McBride",
+    "AVG": 242
+  },
+  {
+    "Player": "Buffalo Bills",
+    "AVG": 182
+  },
+  {
+    "Player": "Trey McBride",
+    "AVG": 232.5
+  },
+  {
+    "Player": "Deuce Vaughn",
+    "AVG": 233.5
+  },
+  {
+    "Player": "Tyler Conklin",
+    "AVG": 234.5
+  },
+  {
+    "Player": "Pierre Strong Jr.",
+    "AVG": 237.5
+  },
+  {
+    "Player": "Baltimore Ravens",
+    "AVG": 196
+  },
+  {
+    "Player": "Cameron Dicker",
+    "AVG": 238.5
+  },
+  {
+    "Player": "Josh Downs",
+    "AVG": 247
+  },
+  {
+    "Player": "Jake Elliott",
+    "AVG": 240
+  },
+  {
+    "Player": "Justyn Ross",
+    "AVG": 240.5
+  },
+  {
+    "Player": "Mecole Hardman Jr.",
+    "AVG": 240.5
+  },
+  {
+    "Player": "Jake Ferguson",
+    "AVG": 241
+  },
+  {
+    "Player": "Jacksonville Jaguars",
+    "AVG": 202
+  },
+  {
+    "Player": "Jelani Woods",
+    "AVG": 242
+  },
+  {
+    "Player": "Chase Edmonds",
+    "AVG": 245
+  },
+  {
+    "Player": "Sterling Shepard",
+    "AVG": 210
+  },
+  {
+    "Player": "Noah Fant",
+    "AVG": 245.5
+  },
+  {
+    "Player": "DeVante Parker",
+    "AVG": 247
+  },
+  {
+    "Player": "Will Levis",
+    "AVG": 246
+  },
+  {
+    "Player": "Puka Nacua",
+    "AVG": 212
+  },
+  {
+    "Player": "Logan Thomas",
+    "AVG": 247
+  },
+  {
+    "Player": "Darius Slayton",
+    "AVG": 247.5
+  },
+  {
+    "Player": "Gardner Minshew II",
+    "AVG": 215
+  },
+  {
+    "Player": "Kansas City Chiefs",
+    "AVG": 216
+  },
+  {
+    "Player": "Israel Abanikanda",
+    "AVG": 249.5
+  },
+  {
+    "Player": "Richie James Jr.",
+    "AVG": 249.5
+  },
+  {
+    "Player": "New York Jets",
+    "AVG": 220
+  },
+  {
+    "Player": "Cade Otton",
+    "AVG": 251
+  },
+  {
+    "Player": "Allen Robinson II",
+    "AVG": 251.5
+  },
+  {
+    "Player": "Kyle Trask",
+    "AVG": 252
+  },
+  {
+    "Player": "Mike White",
+    "AVG": 225
+  },
+  {
+    "Player": "Colt McCoy",
+    "AVG": 226
+  },
+  {
+    "Player": "James Robinson",
+    "AVG": 253.5
+  },
+  {
+    "Player": "New Orleans Saints",
+    "AVG": 227
+  },
+  {
+    "Player": "Keaontay Ingram",
+    "AVG": 268.5
+  },
+  {
+    "Player": "Miami Dolphins",
+    "AVG": 230
+  },
+  {
+    "Player": "Robert Woods",
+    "AVG": 263.5
+  },
+  {
+    "Player": "Khalil Shakir",
+    "AVG": 272
+  },
+  {
+    "Player": "Chase Claypool",
+    "AVG": 262
+  },
+  {
+    "Player": "Greg Zuerlein",
+    "AVG": 236
+  },
+  {
+    "Player": "Jake Moody",
+    "AVG": 259
+  },
+  {
+    "Player": "Denver Broncos",
+    "AVG": 238
+  },
+  {
+    "Player": "Tyquan Thornton",
+    "AVG": 269.5
+  },
+  {
+    "Player": "Jason Sanders",
+    "AVG": 260
+  },
+  {
+    "Player": "Washington Commanders",
+    "AVG": 242
+  },
+  {
+    "Player": "Matt Gay",
+    "AVG": 263.5
+  },
+  {
+    "Player": "Terrace Marshall Jr.",
+    "AVG": 262
+  },
+  {
+    "Player": "Zack Moss",
+    "AVG": 265
+  },
+  {
+    "Player": "Cleveland Browns",
+    "AVG": 245
+  },
+  {
+    "Player": "Sean Tucker",
+    "AVG": 272.5
+  },
+  {
+    "Player": "Malik Davis",
+    "AVG": 274.5
+  },
+  {
+    "Player": "Eric Gray",
+    "AVG": 277
+  },
+  {
+    "Player": "Deon Jackson",
+    "AVG": 250
+  },
+  {
+    "Player": "Michael Wilson",
+    "AVG": 275
+  },
+  {
+    "Player": "D'Ernest Johnson",
+    "AVG": 253
+  },
+  {
+    "Player": "Joshua Palmer",
+    "AVG": 274
+  },
+  {
+    "Player": "Pittsburgh Steelers",
+    "AVG": 255
+  },
+  {
+    "Player": "Greg Dortch",
+    "AVG": 255
+  },
+  {
+    "Player": "Seattle Seahawks",
+    "AVG": 256
+  },
+  {
+    "Player": "Marvin Jones Jr.",
+    "AVG": 256
+  },
+  {
+    "Player": "Kyren Williams",
+    "AVG": 269
+  },
+  {
+    "Player": "Cedric Tillman",
+    "AVG": 285
+  },
+  {
+    "Player": "Jarvis Landry",
+    "AVG": 260
+  },
+  {
+    "Player": "Graham Gano",
+    "AVG": 273.5
+  },
+  {
+    "Player": "Detroit Lions",
+    "AVG": 261
+  },
+  {
+    "Player": "Cincinnati Bengals",
+    "AVG": 262
+  },
+  {
+    "Player": "Evan Hull",
+    "AVG": 271.5
+  },
+  {
+    "Player": "Indianapolis Colts",
+    "AVG": 263
+  },
+  {
+    "Player": "Los Angeles Chargers",
+    "AVG": 265
+  },
+  {
+    "Player": "Isaiah Spiller",
+    "AVG": 287.5
+  },
+  {
+    "Player": "Daniel Bellinger",
+    "AVG": 287
+  },
+  {
+    "Player": "Tampa Bay Buccaneers",
+    "AVG": 268
+  },
+  {
+    "Player": "Ronald Jones II",
+    "AVG": 268
+  },
+  {
+    "Player": "Matt Breida",
+    "AVG": 269
+  },
+  {
+    "Player": "Darnell Washington",
+    "AVG": 269
+  },
+  {
+    "Player": "Mack Hollins",
+    "AVG": 270
+  },
+  {
+    "Player": "Corey Davis",
+    "AVG": 271
+  },
+  {
+    "Player": "Luke Schoonmaker",
+    "AVG": 276
+  },
+  {
+    "Player": "Kenny McIntosh",
+    "AVG": 272
+  },
+  {
+    "Player": "Xavier Hutchinson",
+    "AVG": 273
+  },
+  {
+    "Player": "New York Giants",
+    "AVG": 274
+  },
+  {
+    "Player": "Trayveon Williams",
+    "AVG": 294.5
+  },
+  {
+    "Player": "Kayshon Boutte",
+    "AVG": 276
+  },
+  {
+    "Player": "Minnesota Vikings",
+    "AVG": 277
+  },
+  {
+    "Player": "Foster Moreau",
+    "AVG": 277
+  },
+  {
+    "Player": "Russell Gage",
+    "AVG": 278
+  },
+  {
+    "Player": "Deneric Prince",
+    "AVG": 279
+  },
+  {
+    "Player": "Drew Plitt",
+    "AVG": 280
+  },
+  {
+    "Player": "Zack Kuntz",
+    "AVG": 281
+  },
+  {
+    "Player": "Melvin Gordon III",
+    "AVG": 282
+  },
+  {
+    "Player": "Latavius Murray",
+    "AVG": 283
+  },
+  {
+    "Player": "Wil Lutz",
+    "AVG": 288
+  },
+  {
+    "Player": "Brett Maher",
+    "AVG": 289
+  },
+  {
+    "Player": "Denzel Mims",
+    "AVG": 291
+  },
+  {
+    "Player": "Green Bay Packers",
+    "AVG": 292
+  },
+  {
+    "Player": "Greg Joseph",
+    "AVG": 293
+  },
+  {
+    "Player": "Cade York",
+    "AVG": 295
+  },
+  {
+    "Player": "Raheem Blackshear",
+    "AVG": 296
+  },
+  {
+    "Player": "Carolina Panthers",
+    "AVG": 304
+  },
+  {
+    "Player": "Jordan Mason",
+    "AVG": 305
+  },
+  {
+    "Player": "Ke'Shawn Vaughn",
+    "AVG": 307
+  },
+  {
+    "Player": "Trey Palmer",
+    "AVG": 315
+  }
+]
