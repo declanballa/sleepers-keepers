@@ -1,6 +1,6 @@
 # Sleepers Keepers
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
+Live production site: https://sleeperskeepers.com/
 
 ## Development server
 
